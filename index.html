@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 3</title>
+    <script>
+        //Coding task 1
+        const countries = ["Canada", "India", "USA", "Australia", "Japan", "Germany"];
+        countries.forEach(function(country){
+            console.log(country);
+        })
+
+        //Coding task 2
+        function calculateNumberToothbrushForLife(age, amountPerMonth){
+            const maxAge = 98;
+            const totalToothbrushes = amountPerMonth * 12 * (maxAge - age);
+            console.log(`You will need ${totalToothbrushes} toothbrushes to last you until the age of ${maxAge}`)
+        }
+        calculateNumberToothbrushForLife( 35, 1 );
+        calculateNumberToothbrushForLife( 49, 2 );
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
